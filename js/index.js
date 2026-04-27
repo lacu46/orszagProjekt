@@ -18,4 +18,3 @@ document.getElementById("foDiv").innerHTML=sz
 
 
 
-

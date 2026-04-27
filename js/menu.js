@@ -1,23 +1,22 @@
 document.getElementById("menu").innerHTML=`
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Logo</a>
+          <a class="navbar-brand" href="https://hu.wikipedia.org/wiki/K%C3%ADna" target="_blank"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item betu">
                 <a class="nav-link" href="index.html">Nyitólap</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item betu">
                 <a class="nav-link" href="nevezetessegek.html">Nevezetességek</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+              <li class="nav-item betu">
+                <a class="nav-link" href="etelek.html">Ételek</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-      `
+      </nav>`

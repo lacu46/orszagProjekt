@@ -10,10 +10,40 @@
     text-align: justify;
 }
 .kartya{
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 0, 51);
     box-shadow: 3px 3px;
     border-radius: 3px;
     margin: 10px;
     padding: 10px;
     height: 500px;
+}
+#foDiv {
+    background-image: url("kepek/hatter.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+body {
+    background: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("kepek/hatter2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    color: aliceblue;
+}
+a{
+    background-image: url(kepek/flag.jpg);
+    height: 100px;
+    width: 200px;
+    background-size: cover;
+    font-size: 100px;
+}
+.betu{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
 }

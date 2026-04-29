@@ -1,4 +1,5 @@
 
+
 let sz=""
 for (const item of termeszetTomb) {
     sz+=`

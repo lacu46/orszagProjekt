@@ -1,22 +1,17 @@
-const etelekTomb = [
+const etelekTomb=[
     {
-      nev: "Pekingi kacsa",
-      kep: "etelek1.jpg",
-      leiras: "Ropogós bőrű sült kacsa, palacsintával, újhagymával és szósszal tálalva."
+        "nev":"Pekingi kacsa",
+        "leiras":"Ropogós bőrű sült kacsa, palacsintával, újhagymával és szósszal tálalva.",
+        "kep":"etelek1.jpg"
     },
     {
-      nev: "Chow Mein",
-      kep: "etelek2.jpg",
-      leiras: "Pirított tészta zöldségekkel, hússal vagy tofuval."
+        "nev":"Chow Mein",
+        "leiras":"Pirított tészta zöldségekkel, hússal vagy tofuval.",
+        "kep":"etelek2.jpg"
     },
     {
-      nev: "Tavaszi tekercs",
-      kep: "tavaszi_tekercs.jpg",
-      leiras: "Ropogósra sült tekercs zöldséges vagy húsos töltelékkel."
+        "nev":"Tavaszi tekercs",
+        "leiras":"Ropogósra sült tekercs zöldséges vagy húsos töltelékkel.",
+        "kep":"etelek3.jpg"
     },
-    {
-      nev: "Gong Bao csirke",
-      kep: "gong_bao.jpg",
-      leiras: "Csípős-sós csirkés étel mogyoróval és zöldségekkel."
-    }
-  ];
+]

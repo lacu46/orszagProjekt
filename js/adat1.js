@@ -1,17 +1,28 @@
-const termeszetTomb=[
-    {
-        "nev":"Balaton",
-        "leiras":"A Balaton Közép-Európa legnagyobb tava, gyakran „a magyar tengernek” is nevezik. Sekély vize gyorsan felmelegszik, így nyáron kedvelt üdülőhely. Partján számos strand, üdülőváros és borvidék található.",
-        "kep":"termeszet1.jpg"
-    },
-    {
-        "nev":"Badacsony",
-        "leiras":"A Badacsony a Balaton északi partján emelkedő vulkanikus hegy, amely a borairól és különleges bazaltorgonáiról ismert. A környék kiváló kirándulóhely, gyönyörű kilátással a tóra.",
-        "kep":"termeszet2.jpg"
-    },
-    {
-        "nev":"Bükk",
-        "leiras":"A Bükk hegység Észak-Magyarországon fekszik, és az ország egyik legmagasabb, erdőkben gazdag vidéke. Híres barlangjairól, túraútvonalairól és tiszta levegőjéről, ezért népszerű a természetjárók körében.",
-        "kep":"termeszet3.jpg"
-    },
-]
+const bekezdesek = [
+    "Kína a világ egyik legősibb és legnagyobb országa.",
+    "Híres a Nagy Falról és a Tiltott Városról.",
+    "Modern városai és hagyományai együtt jelennek meg.",
+    "Ez az oldal turistáknak mutatja be az országot."
+  ];
+  
+  let szoveg = "<h1>Kína 🇨🇳</h1>";
+  
+  for (const b of bekezdesek) {
+      szoveg += `<p>${b}</p>`;
+  }
+  
+  
+  szoveg += `<div id="idojaras" class="mt-3"></div>`;
+  
+ 
+  document.getElementById("foDiv").innerHTML = szoveg;
+  
+  
+  fetch("https://api.open-meteo.com/v1/forecast?latitude=39.9&longitude=116.4&current_weather=true")
+  .then(res => res.json())
+  .then(data => {
+      document.getElementById("idojaras").innerHTML =
+      `<div class="alert alert-info">
+          🌡️ Aktuális hőmérséklet Pekingben: ${data.current_weather.temperature}°C
+      </div>`;
+  });

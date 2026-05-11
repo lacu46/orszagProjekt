@@ -16,6 +16,12 @@ document.getElementById("menu").innerHTML=`
               <li class="nav-item betu">
                 <a class="nav-link" href="etelek.html">Ételek</a>
               </li>
+              <li class="nav-item betu">
+                <a class="nav-link" href="kultura.html">Kultúrak</a>
+              </li>
+              <li class="nav-item betu">
+                <a class="nav-link" href="nyelv.html">Nyelv</a>
+              </li>
             </ul>
           </div>
         </div>

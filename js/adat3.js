@@ -23,7 +23,8 @@ const etelekTomb = [
         leiras: "Ropogósra sült tekercs zöldséges vagy húsos töltelékkel.",
         kepek: [
             "etelek3.jpg",
-            "etelek3_2.jpg"
+            "etelek3_2.jpg",
+            "etelek3_3.jpg"
         ]
     }
 ];

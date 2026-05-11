@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kínai nyelv és írásjelek</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stilus.css">
+
+    <style>
+
+       
+
+        header{
+            background-image: url("kepek/chinaheader.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            position: relative;
+        }
+
+        header h1{
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            background: rgba(0,0,0,0.5);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .kartya{
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            height: 100%;
+            transition: 0.3s;
+        }
+
+        .kartya:hover{
+            transform: scale(1.03);
+        }
+
+        .kinaiJel{
+            font-size: 60px;
+            text-align: center;
+            color: crimson;
+        }
+
+        .tajkep{
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="menu"></div>
+
+    <!-- FEJLÉC -->
+    <header>
+        <h1>🈶 Kínai nyelv és írásjelek</h1>
+    </header>
+
+    <!-- TARTALOM -->
+    <main class="container mt-5">
+
+        <!-- Bevezetés -->
+        <section class="mb-5">
+            <div class="kartya">
+                <h2>Érdekességek a kínai nyelvről</h2>
+
+                <p>
+                    A kínai nyelv a világ egyik legrégebbi és legkülönlegesebb nyelve. 
+                    Több mint 1 milliárd ember beszéli, és rendkívül gazdag történelmi múlttal rendelkezik.
+                </p>
+
+                <p>
+                    A kínai írás nem betűkből áll, mint a magyar nyelv, hanem különleges írásjelekből, 
+                    amelyeket karaktereknek nevezünk.
+                </p>
+
+                <p>
+                    Egy művelt kínai ember akár több ezer karaktert is ismerhet.
+                </p>
+            </div>
+        </section>
+
+
+
+        <!-- Kínai írásjelek -->
+        <section class="mb-5">
+
+            <h2 class="mb-4 text-center">🈷️ Gyakori kínai írásjelek</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="kartya text-center">
+                        <div class="kinaiJel">你好</div>
+                        <h4>Szia</h4>
+                        <p>Nǐ hǎo</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="kartya text-center">
+                        <div class="kinaiJel">谢谢</div>
+                        <h4>Köszönöm</h4>
+                        <p>Xièxiè</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="kartya text-center">
+                        <div class="kinaiJel">中国</div>
+                        <h4>Kína</h4>
+                        <p>Zhōngguó</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Tájegységek és nyelvek -->
+        <section class="mb-5">
+
+            <h2 class="text-center mb-4">🌏 Tájegységek és nyelvek</h2>
+
+            <div class="row g-4">
+
+                <div class="col-lg-4">
+                    <div class="kartya">
+                        <img src="kepek/peking.jpg" class="tajkep" alt="Peking">
+
+                        <h3 class="mt-3">Észak-Kína</h3>
+
+                        <p>
+                            Az ország északi részén főként a mandarin kínait beszélik, 
+                            amely Kína hivatalos nyelve.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="kartya">
+                        <img src="kepek/hongkong.jpg" class="tajkep" alt="Hongkong">
+
+                        <h3 class="mt-3">Dél-Kína</h3>
+
+                        <p>
+                            Dél-Kínában sok helyen kantoni nyelvet beszélnek, különösen Hongkong környékén.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="kartya">
+                        <img src="kepek/tibet.jpg" class="tajkep" alt="Tibet">
+
+                        <h3 class="mt-3">Tibet</h3>
+
+                        <p>
+                            Tibet területén saját nyelv és kultúra alakult ki, amely jelentősen eltér Kína más részeitől.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Érdekességek -->
+        <section>
+
+            <div class="kartya">
+
+                <h2>⭐ Érdekességek</h2>
+
+                <ul>
+                    <li>A kínai nyelv tonális nyelv, ezért ugyanaz a szó más hangsúllyal mást jelenthet.</li>
+
+                    <li>Kínában több száz nyelvjárás létezik.</li>
+
+                    <li>A kínai írásjelek több mint 3000 éves múltra tekintenek vissza.</li>
+
+                    <li>A kínai kalligráfia külön művészeti ágnak számít.</li>
+
+                    <li>A piros szín Kínában a szerencsét és boldogságot jelképezi.</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer>
+    </footer>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
